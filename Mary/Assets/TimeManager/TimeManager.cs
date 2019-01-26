@@ -26,6 +26,11 @@ public class TimeManager : MonoBehaviour
 
     [SerializeField]
     private float _seconds;
+
+    public int GetDaySeconds()
+    {
+        return (int)_seconds;
+    }
     
     public int GetClockSeconds()
     {
@@ -40,5 +45,10 @@ public class TimeManager : MonoBehaviour
     public int GetClockHours()
     {
         return (int)_seconds / 3600;
+    }
+
+    public void ChangeGameSpeed(float value)
+    {
+        Time.timeScale = value;
     }
 }
