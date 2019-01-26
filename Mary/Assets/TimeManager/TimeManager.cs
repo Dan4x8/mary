@@ -24,7 +24,6 @@ public class TimeManager : MonoBehaviour
 
     public float DayLength { get { return _dayLength; } set { _dayLength = value; } }
 
-
     [SerializeField]
     private float _seconds;
     
