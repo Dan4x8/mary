@@ -1,21 +1,20 @@
 fileFormatVersion: 2
-guid: c37dfd7547792a643890f0328679f72c
+guid: 9e65c45131ed1c64a86bf1475c5f201c
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 2TinyVersionWalkingAnimation_0
-    21300002: 2TinyVersionWalkingAnimation_1
-    21300004: 2TinyVersionWalkingAnimation_2
-    21300006: 2TinyVersionWalkingAnimation_3
-    21300008: 2TinyVersionWalkingAnimation_4
-    21300010: 2TinyVersionWalkingAnimation_5
-    21300012: 2TinyVersionWalkingAnimation_6
-    21300014: 2TinyVersionWalkingAnimation_7
-    21300016: 2TinyVersionWalkingAnimation_9
-    21300018: 2TinyVersionWalkingAnimation_11
-    21300020: 2TinyVersionWalkingAnimation_12
-    21300022: 2TinyVersionWalkingAnimation_14
-    21300024: 2TinyVersionWalkingAnimation_15
-    21300026: 2TinyVersionWalkingAnimation_16
+    21300000: 3TinyVersionWalkingAnimation_0
+    21300002: 3TinyVersionWalkingAnimation_1
+    21300004: 3TinyVersionWalkingAnimation_2
+    21300006: 3TinyVersionWalkingAnimation_3
+    21300008: 3TinyVersionWalkingAnimation_4
+    21300010: 3TinyVersionWalkingAnimation_5
+    21300012: 3TinyVersionWalkingAnimation_6
+    21300014: 3TinyVersionWalkingAnimation_7
+    21300016: 3TinyVersionWalkingAnimation_8
+    21300018: 3TinyVersionWalkingAnimation_9
+    21300020: 3TinyVersionWalkingAnimation_10
+    21300022: 3TinyVersionWalkingAnimation_11
+    21300024: 3TinyVersionWalkingAnimation_12
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -98,221 +97,181 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_0
+      name: 3TinyVersionWalkingAnimation_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 60
-        width: 83
+        x: 201
+        y: 90
+        width: 98
         height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5cfd339b5d0da46a13d9f71c1d7b05
+      spriteID: 1fb91e511ecfdbb45afc6c6c61a64063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_1
+      name: 3TinyVersionWalkingAnimation_3
       rect:
         serializedVersion: 2
-        x: 176
-        y: 52
-        width: 61
-        height: 260
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 749759f7b40e5b14087c9bb97c56b2f8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 55
-        width: 68
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19b75a9d9d096574897cfcb0d231711a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_3
-      rect:
-        serializedVersion: 2
-        x: 423
-        y: 60
-        width: 87
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77c7d196f19a36d4aa47c9496c7e0b21
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_5
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 56
-        width: 99
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a942ee5695ad9ef45a1c938218bc7ecc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_9
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 47
+        x: 495
+        y: 89
         width: 66
-        height: 259
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 252
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 030fe699eb6736a439de2592edfffece
+      spriteID: 2c77a42096157cc429bd71f9f4e9b093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_11
+      name: 3TinyVersionWalkingAnimation_4
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 52
+        x: 624
+        y: 93
         width: 54
         height: 260
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ec0147afee08d34397003393c333df4
+      spriteID: 9da1c5fb2fe093040ba768604c539482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_12
+      name: 3TinyVersionWalkingAnimation_5
       rect:
         serializedVersion: 2
-        x: 1267
-        y: 56
-        width: 73
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 840
+        y: 99
+        width: 114
+        height: 258
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66d00b634b549f4bb2530888164eeb6
+      spriteID: 3cc3319f30663f64abba5b5056ccd984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_14
+      name: 3TinyVersionWalkingAnimation_6
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 55
-        width: 83
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 766
+        y: 86
+        width: 63
+        height: 263
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bbf328d3406f3e4fa3d7fd272e2646d
+      spriteID: 3605a9ec03c65174da826deef5697232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_15
+      name: 3TinyVersionWalkingAnimation_7
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 56
-        width: 102
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cec6c6cd330820e4db73194f476081f4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 2TinyVersionWalkingAnimation_16
-      rect:
-        serializedVersion: 2
-        x: 1594
-        y: 56
+        x: 991
+        y: 101
         width: 110
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 258
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ad8faf7acde3f45adab7ae3301734a
+      spriteID: 10318ecf61cca6047a7c65bb9b3c98ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3TinyVersionWalkingAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 101
+        width: 111
+        height: 255
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050d5fcc6c61e63469972a413b3ddd65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3TinyVersionWalkingAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 99
+        width: 105
+        height: 254
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828ca0eee1e112140acbcd47582e15bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3TinyVersionWalkingAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 105
+        width: 83
+        height: 255
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27195b4b4f7b3049aa3cea922c942b3
       vertices: []
       indices: 
       edges: []
@@ -320,7 +279,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 049823888f26d6f4694b5d0a403d671a
+    spriteID: 58c6c83b4fa9bcb4dafcfd9fa18b2757
     vertices: []
     indices: 
     edges: []
