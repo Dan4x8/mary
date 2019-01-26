@@ -19,6 +19,6 @@ public class AnalogClock : MonoBehaviour
 
     private void Update()
     {
-        transform.rotation = Quaternion.Euler(0f, 0f, (_timeManager.GetDaySeconds()/_timeManager.DayLength/_hoursOnClock)*-_direction);
+        transform.rotation = Quaternion.Euler(0f, 0f, (_timeManager.GetDaySeconds()/_timeManager.DayLength/_hoursOnClock)*-_direction + rotationOffset);
     }
 }
