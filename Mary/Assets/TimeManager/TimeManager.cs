@@ -10,6 +10,22 @@ public class TimeManager : MonoBehaviour
     [SerializeField]
     private float _dayLength = 1440f;
 
+    public static TimeManager Instance = null;
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void Update()
     {
         _dayTime += Time.deltaTime;
