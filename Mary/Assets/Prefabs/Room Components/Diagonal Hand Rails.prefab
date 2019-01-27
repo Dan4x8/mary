@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1930940358665687526}
   - component: {fileID: 3516552569259253948}
+  - component: {fileID: 1047991124327067151}
   m_Layer: 0
   m_Name: StairsBottom
   m_TagString: Untagged
@@ -57,6 +58,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1233206, y: 2.5273035}
   m_EdgeRadius: 0
+--- !u!114 &1047991124327067151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275951339045842198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37aabb49f593f46a83817d24d73467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _input: {fileID: 0}
 --- !u!1 &510513585358198082
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7892708219486081865}
   - component: {fileID: 5292712509217757100}
+  - component: {fileID: 802458206733785694}
   m_Layer: 0
   m_Name: StairsTop
   m_TagString: Untagged
@@ -789,6 +804,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1233206, y: 2.5273035}
   m_EdgeRadius: 0
+--- !u!114 &802458206733785694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5962243742879953893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc37aabb49f593f46a83817d24d73467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _input: {fileID: 0}
 --- !u!1 &6280163126134641889
 GameObject:
   m_ObjectHideFlags: 0
