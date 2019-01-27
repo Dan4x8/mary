@@ -8,22 +8,22 @@ public class ButtonCallbacks : MonoBehaviour
 {
     Button play;
     Button settings;
-    Button closeSettings;
+    public GameObject closeSettings;
 
-    GameObject optionsPanel;
+    public GameObject optionsPanel;
 
     // Start is called before the first frame update
     void Start()
     {
         play = GameObject.Find("Play").GetComponent<Button>();
         settings = GameObject.Find("Settings").GetComponent<Button>();
-        closeSettings = GameObject.Find("Close Options").GetComponent<Button>();
-        optionsPanel = GameObject.Find("OptionsPanel");
-        optionsPanel.SetActive(false);
 
         play.onClick.AddListener(StartGame);
         settings.onClick.AddListener(ShowSettings);
-        closeSettings.onClick.AddListener(CloseSettings);
+        closeSettings.GetComponent<Button>().onClick.AddListener(CloseSettings);
+
+        optionsPanel.SetActive(false);
+
     }
 
     void StartGame()
