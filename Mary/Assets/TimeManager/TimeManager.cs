@@ -31,6 +31,11 @@ public class TimeManager : MonoBehaviour
     {
         return (int)_seconds;
     }
+
+    public float GetDayTime()
+    {
+        return _dayTime;
+    }
     
     public int GetClockSeconds()
     {
