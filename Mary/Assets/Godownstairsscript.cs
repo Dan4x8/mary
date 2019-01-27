@@ -9,11 +9,9 @@ public class Godownstairsscript : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("TriggerStay");
         if(Input.GetButtonDown("Action") && _input.Agency)
         {
             _input.Agency = false;
-            Debug.Log("Go up!");
             _input.GetAnimator().SetFloat("X", -1);
             _input.GetAnimator().GetComponent<Rigidbody2D>().AddForce(Vector2.down * 90f);
         }
