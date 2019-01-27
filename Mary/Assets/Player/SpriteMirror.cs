@@ -14,15 +14,10 @@ public class SpriteMirror : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(animator.GetFloat("X") < 0 && !left)
+        if((animator.GetFloat("X") < 0 && !left)||(animator.GetFloat("X") > 0 && left))
         {
-            left = true;
-            animator.GetComponent<SpriteRenderer>().flipX = true;
-        }
-        else if (animator.GetFloat("X") > 0 && left)
-        {
-            left = false;
-            animator.GetComponent<SpriteRenderer>().flipX = false;
+            left = !left;
+            animator.GetComponent<SpriteRenderer>().flipX = !animator.GetComponent<SpriteRenderer>().flipX;
         }
     }
 
