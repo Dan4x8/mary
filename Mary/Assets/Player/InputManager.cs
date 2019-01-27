@@ -14,8 +14,12 @@ public class InputManager : MonoBehaviour
         Agency = true;
     }
 
+    [SerializeField]
+    AudioSource _stepsource;
+
     void Update()
     {
+        _stepsource.volume = Mathf.Abs(_player.GetFloat("X"));
         if(!Agency)
         {
             return;
