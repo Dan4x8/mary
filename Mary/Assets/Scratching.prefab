@@ -144,4 +144,4 @@ MonoBehaviour:
   delay: 10
   minDelay: 5
   maxDelay: 15
-  _randomPitch: 0
+  _randomPitch: 1
