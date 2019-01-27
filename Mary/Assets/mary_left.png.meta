@@ -1,20 +1,15 @@
 fileFormatVersion: 2
-guid: 9e65c45131ed1c64a86bf1475c5f201c
+guid: 0e7831bdef955d34994572f92fcff412
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 3TinyVersionWalkingAnimation_0
-    21300002: 3TinyVersionWalkingAnimation_1
-    21300004: 3TinyVersionWalkingAnimation_2
-    21300006: 3TinyVersionWalkingAnimation_3
-    21300008: 3TinyVersionWalkingAnimation_4
-    21300010: 3TinyVersionWalkingAnimation_5
-    21300012: 3TinyVersionWalkingAnimation_6
-    21300014: 3TinyVersionWalkingAnimation_7
-    21300016: 3TinyVersionWalkingAnimation_8
-    21300018: 3TinyVersionWalkingAnimation_9
-    21300020: 3TinyVersionWalkingAnimation_10
-    21300022: 3TinyVersionWalkingAnimation_11
-    21300024: 3TinyVersionWalkingAnimation_12
+    21300000: mary_left_0
+    21300002: mary_left_1
+    21300004: mary_left_2
+    21300006: mary_left_3
+    21300008: mary_left_4
+    21300010: mary_left_5
+    21300012: mary_left_6
+    21300014: mary_left_7
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -97,181 +92,161 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_1
+      name: mary_left_0
       rect:
         serializedVersion: 2
-        x: 201
-        y: 90
-        width: 98
-        height: 254
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 63
+        y: 30
+        width: 112
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb91e511ecfdbb45afc6c6c61a64063
+      spriteID: 55b4349ee0192ad4a9129802f1d26a0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_3
+      name: mary_left_1
       rect:
         serializedVersion: 2
-        x: 495
-        y: 89
-        width: 66
-        height: 252
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 346
+        y: 33
+        width: 100
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c77a42096157cc429bd71f9f4e9b093
+      spriteID: f4bf08a56afa8df4ba5f00a585dfae64
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_4
+      name: mary_left_2
       rect:
         serializedVersion: 2
-        x: 624
-        y: 93
-        width: 54
-        height: 260
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 614
+        y: 34
+        width: 100
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da1c5fb2fe093040ba768604c539482
+      spriteID: 465a0ec9e03eecd4b9f30937bbe5d053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_5
+      name: mary_left_3
       rect:
         serializedVersion: 2
-        x: 840
-        y: 99
-        width: 114
-        height: 258
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 892
+        y: 33
+        width: 79
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc3319f30663f64abba5b5056ccd984
+      spriteID: 2398e8a1301af4e48a2fce407637b92c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_6
+      name: mary_left_4
       rect:
         serializedVersion: 2
-        x: 766
-        y: 86
-        width: 63
-        height: 263
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 1162
+        y: 34
+        width: 69
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3605a9ec03c65174da826deef5697232
+      spriteID: 23cbb338d1daf1443ba640b8cb11aff7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_7
+      name: mary_left_5
       rect:
         serializedVersion: 2
-        x: 991
-        y: 101
+        x: 1439
+        y: 31
+        width: 56
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eb8ea0f0f3310428ad87a4b1888bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mary_left_6
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 35
         width: 110
-        height: 258
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10318ecf61cca6047a7c65bb9b3c98ff
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_8
-      rect:
-        serializedVersion: 2
-        x: 1124
-        y: 101
-        width: 111
         height: 255
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 050d5fcc6c61e63469972a413b3ddd65
+      spriteID: 72d2eb3ba79ef734bb9486f93b4b8226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_9
+      name: mary_left_7
       rect:
         serializedVersion: 2
-        x: 1255
-        y: 99
-        width: 105
-        height: 254
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
+        x: 1938
+        y: 29
+        width: 112
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 828ca0eee1e112140acbcd47582e15bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 3TinyVersionWalkingAnimation_10
-      rect:
-        serializedVersion: 2
-        x: 1381
-        y: 105
-        width: 83
-        height: 255
-      alignment: 4
-      pivot: {x: 0, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a27195b4b4f7b3049aa3cea922c942b3
+      spriteID: b2cc047c219af6841aa86f656e1048f5
       vertices: []
       indices: 
       edges: []
@@ -279,7 +254,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 58c6c83b4fa9bcb4dafcfd9fa18b2757
+    spriteID: 2cf92bd0d72b8864a944ac79c8775697
     vertices: []
     indices: 
     edges: []
